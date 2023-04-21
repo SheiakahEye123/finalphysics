@@ -104,12 +104,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\kaide\source\repos\myphysicsgame\raylib-master\out\build\x64-Debug\raylib\include;C:\Users\kaide\source\repos\myphysicsgame\raylib-cpp-master\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\kaide\source\repos\myphysicsgame\raylib-master\out\build\x64-Debug\raylib\include;C:\Users\kaide\source\repos\SheiakahEye123\finalphysics\raylib-master\out\build\x64-Debug\raylib\include;C:\Users\kaide\source\repos\SheiakahEye123\finalphysics\raylib-cpp-master\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\kaide\source\repos\myphysicsgame\raylib-master\out\build\x64-Debug\raylib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\kaide\source\repos\myphysicsgame\raylib-master\out\build\x64-Debug\raylib;C:\Users\kaide\source\repos\SheiakahEye123\finalphysics\raylib-master\out\build\x64-Debug\raylib</AdditionalLibraryDirectories>
       <AdditionalDependencies>winmm.lib;raylib.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -131,6 +131,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FileName.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Polygon.h" />
+    <ClInclude Include="Rectangle.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
